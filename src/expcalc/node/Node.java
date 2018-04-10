@@ -3,7 +3,7 @@ package expcalc.node;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Node {
+public class Node{
     private Node prev, next, childFirst, childLast, parent;
     private int size;
 

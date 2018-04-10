@@ -13,6 +13,7 @@ public class NodeTest {
     }
 
     public static void main(String[] args) {
+
         Tnode root = new Tnode(0);
         root.addChileFirst(new Tnode(1));
         Tnode tn = (Tnode) root.getChildFirst();
